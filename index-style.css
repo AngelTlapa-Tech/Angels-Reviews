@@ -1,0 +1,91 @@
+* { margin: 0; padding: 0; box-sizing: border-box; 
+}
+#hero {
+    border-bottom: 1px solid #1e1e1e;
+    font-family: 'Cormorant Garamond', serif;
+    color:floralwhite;
+    font-size: 50px;
+    font-weight: 800;
+}
+.hero-heading{
+    line-height: 1.1;
+    padding: 64px 48px;
+}
+.hero-welcome{
+    font-size:10px;
+    color: rgb(52, 52, 52);
+    font-family: Inter;
+    font-weight: 120;
+    letter-spacing: 2px;
+    padding: 64px 48px;
+    margin-bottom: -110px;
+}
+.hero-text{
+    font-size: 16px;
+    color: rgb(65, 64, 64);
+    font-family: Inter;
+    font-weight: 120;
+    letter-spacing: 2px;
+    padding: 4px 48px;
+    margin-top: -45px;
+    margin-inline-end: 55%;
+}
+#latest-reviews {
+    border-bottom: 1px solid #1e1e1e;
+}
+#dev-log {
+    border-bottom: 1px solid #1e1e1e;
+}
+#about-strip {
+    border-bottom: 1px solid #1e1e1e;
+}
+.buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    padding: 16px 48px;
+    padding-bottom: 80px;
+}
+/* From Uiverse.io by portseif */ 
+button {
+  align-items: center;
+  background-color: transparent;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  font-family: ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.5;
+  text-decoration: none;
+  text-transform: uppercase;
+  outline: 0;
+  border: 0;
+  padding: 1rem;
+}
+
+button:before {
+  background-color: #fff;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  margin-right: 10px;
+  transition: all .42s cubic-bezier(.25,.8,.25,1);
+  width: 0;
+}
+
+button:hover:before {
+  background-color: #fff;
+  width: 3rem;
+}
+/* End of Uiverse.io code */
+.latest-reviews-title {
+    font-family: 'Cormorant Garamond', serif;
+    color:floralwhite;
+    font-size:25px;
+    font-weight: 800;
+    padding: 44px 48px;
+    display: flex;
+    align-items: center;
+    flex-wrap: row;
+}
