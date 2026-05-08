@@ -238,6 +238,7 @@ button:hover:before {
 .review-cards {
     display: flex;
     flex-direction: row;
-    gap: 25px;
+    gap: 40px;
     justify-content: center;
+    padding-bottom: 70px;
 }
