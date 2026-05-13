@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://angeltlapa-tech.github.io/Angels-Reviews/sitemap.xml
