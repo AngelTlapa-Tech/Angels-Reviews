@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Reviews</title>
     <link rel="stylesheet" href="global.css" />
+    <link rel="stylesheet" href="reviews.css" />
   </head>
   <body>
     <!--Navbar-->
@@ -30,7 +31,379 @@
       </ul>
     </nav>
     <!--Main Content-->
-    <main></main>
+    <main>
+      <!--Intro Section-->
+      <div class="intro">
+        <p class="intro-sub-title">All Reviews</p>
+        <h1 class="intro-title">Games, Books & Tech</h1>
+        <p class="intro-description">
+          Just a place where I praise great stuff I own and complain about some
+          of the things I wish were better
+        </p>
+      </div>
+      <!--End Intro Section-->
+      <!--Review Filter Section-->
+      <div class="filter-buttons">
+        <button class="filter-button" role="button">All</button>
+        <button class="filter-button" role="button">Games</button>
+        <button class="filter-button" role="button">Books</button>
+        <button class="filter-button" role="button">Tech</button>
+      </div>
+      <!--End Review Filter Section-->
+      <!--Game Reviews-->
+      <div class="section-title">
+        <h2 class="review-title">Games</h2>
+        <a href="/reviews/games.html" class="see-all">SEE ALL →</a>
+      </div>
+      <!--Game Cards-->
+      <div class="game-cards">
+        <div class="card">
+          <div class="card-thumb">
+            <img
+              src="../review-imgs/cp2077-preview.jpg"
+              alt="Game Title"
+              style="width: 100%; height: 100%; object-fit: cover"
+            />
+            <span class="thumb-label label-game">Game</span>
+          </div>
+          <div class="card-body">
+            <div class="stars">
+              <div class="star-full"></div>
+              <div class="star-full"></div>
+              <div class="star-full"></div>
+              <div class="star-full"></div>
+              <div class="star-half"></div>
+            </div>
+            <div class="card-top">
+              <div class="card-title">Cyberpunk 2077</div>
+              <div>
+                <div class="card-score">9.5</div>
+                <div class="card-score-label">/ 10</div>
+              </div>
+            </div>
+            <div class="card-meta">CD Projekt Red · RPG · 2020</div>
+            <div class="card-text">
+              My hands down, favorite game of all time. A true masterpiece that
+              I will cherish forever.
+            </div>
+            <div class="card-footer">
+              <span class="card-date">May 15, 2026</span>
+              <a href="your-review-page.html" class="card-read">Read →</a>
+            </div>
+          </div>
+        </div>
+
+        <!--End Game Card 1-->
+        <!--Game Card 2-->
+        <div class="card">
+          <div class="card-thumb">
+            <img
+              src="../review-imgs/nier-preview.jpeg"
+              alt="Game Title"
+              style="width: 100%; height: 100%; object-fit: cover"
+            />
+            <span class="thumb-label label-game">Game</span>
+          </div>
+          <div class="card-body">
+            <div class="stars">
+              <div class="star-full"></div>
+              <div class="star-full"></div>
+              <div class="star-full"></div>
+              <div class="star-full"></div>
+              <div class="star-half"></div>
+            </div>
+            <div class="card-top">
+              <div class="card-title">Nier Automata</div>
+              <div>
+                <div class="card-score">9.5</div>
+                <div class="card-score-label">/ 10</div>
+              </div>
+            </div>
+            <div class="card-meta">Square Enix · RPG · 2017</div>
+            <div class="card-text">
+              Definitely a very different type of game that isnt for everyone,
+              but if you look past the weirdness, you will find a deep story ive
+              to this day never seen anything like.
+            </div>
+            <div class="card-footer">
+              <span class="card-date">May 15, 2026</span>
+              <a href="your-review-page.html" class="card-read">Read →</a>
+            </div>
+          </div>
+        </div>
+        <!--End Game Card 2-->
+        <!--Game Card 3-->
+        <div class="card">
+          <div class="card-thumb">
+            <img
+              src="../review-imgs/bf6-imgs.png"
+              alt="Game Title"
+              style="width: 100%; height: 100%; object-fit: cover"
+            />
+            <span class="thumb-label label-game">Game</span>
+          </div>
+          <div class="card-body">
+            <div class="stars">
+              <div class="star-full"></div>
+              <div class="star-full"></div>
+              <div class="star-full"></div>
+              <div class="star-full"></div>
+              <div class="star-half"></div>
+            </div>
+            <div class="card-top">
+              <div class="card-title">Battlefield 6</div>
+              <div>
+                <div class="card-score">9.5</div>
+                <div class="card-score-label">/ 10</div>
+              </div>
+            </div>
+            <div class="card-meta">EA Games · Shooter · 2025</div>
+            <div class="card-text">
+              One of, if not the best, Shooter ive ever played. A style and time
+              period perfect for me.
+            </div>
+            <div class="card-footer">
+              <span class="card-date">May 15, 2026</span>
+              <a href="your-review-page.html" class="card-read">Read →</a>
+            </div>
+          </div>
+        </div>
+        <!--End Game Card 3-->
+      </div>
+      <!--End Game Reviews-->
+      <!--Books Reviews-->
+      <div class="section-title">
+        <h2 class="review-title">Books</h2>
+        <a href="/reviews/books.html" class="see-all">SEE ALL →</a>
+      </div>
+      <div class="book-cards">
+        <div class="card">
+          <div class="card-thumb">
+            <img
+              src="your-image.jpg"
+              alt="Book Title"
+              style="width: 100%; height: 100%; object-fit: cover"
+            />
+            <span class="thumb-label label-book">Book</span>
+          </div>
+          <div class="card-body">
+            <div class="stars">
+              <div class="star-full"></div>
+              <div class="star-full"></div>
+              <div class="star-full"></div>
+              <div class="star-full"></div>
+              <div class="star-empty"></div>
+            </div>
+            <div class="card-top">
+              <div class="card-title">Book Title</div>
+              <div>
+                <div class="card-score">8.0</div>
+                <div class="card-score-label">/ 10</div>
+              </div>
+            </div>
+            <div class="card-meta">Author · Genre · Year</div>
+            <div class="card-text">
+              Your short one or two sentence take on the book goes here.
+            </div>
+            <div class="card-footer">
+              <span class="card-date">Month DD, YYYY</span>
+              <a href="your-review-page.html" class="card-read">Read →</a>
+            </div>
+          </div>
+        </div>
+        <!--End Book Card 1-->
+        <!--Book Card 2-->
+        <div class="card">
+          <div class="card-thumb">
+            <img
+              src="your-image.jpg"
+              alt="Book Title"
+              style="width: 100%; height: 100%; object-fit: cover"
+            />
+            <span class="thumb-label label-book">Book</span>
+          </div>
+          <div class="card-body">
+            <div class="stars">
+              <div class="star-full"></div>
+              <div class="star-full"></div>
+              <div class="star-full"></div>
+              <div class="star-full"></div>
+              <div class="star-empty"></div>
+            </div>
+            <div class="card-top">
+              <div class="card-title">Book Title</div>
+              <div>
+                <div class="card-score">8.0</div>
+                <div class="card-score-label">/ 10</div>
+              </div>
+            </div>
+            <div class="card-meta">Author · Genre · Year</div>
+            <div class="card-text">
+              Your short one or two sentence take on the book goes here.
+            </div>
+            <div class="card-footer">
+              <span class="card-date">Month DD, YYYY</span>
+              <a href="your-review-page.html" class="card-read">Read →</a>
+            </div>
+          </div>
+        </div>
+        <!--End Book Card 2-->
+        <!--Book Card 3-->
+        <div class="card">
+          <div class="card-thumb">
+            <img
+              src="your-image.jpg"
+              alt="Book Title"
+              style="width: 100%; height: 100%; object-fit: cover"
+            />
+            <span class="thumb-label label-book">Book</span>
+          </div>
+          <div class="card-body">
+            <div class="stars">
+              <div class="star-full"></div>
+              <div class="star-full"></div>
+              <div class="star-full"></div>
+              <div class="star-full"></div>
+              <div class="star-empty"></div>
+            </div>
+            <div class="card-top">
+              <div class="card-title">Book Title</div>
+              <div>
+                <div class="card-score">8.0</div>
+                <div class="card-score-label">/ 10</div>
+              </div>
+            </div>
+            <div class="card-meta">Author · Genre · Year</div>
+            <div class="card-text">
+              Your short one or two sentence take on the book goes here.
+            </div>
+            <div class="card-footer">
+              <span class="card-date">Month DD, YYYY</span>
+              <a href="your-review-page.html" class="card-read">Read →</a>
+            </div>
+          </div>
+        </div>
+        <!--End Book Card 3-->
+      </div>
+
+      <!--End Books Reviews-->
+      <!--Tech Reviews-->
+      <div class="section-title">
+        <h2 class="review-title">Tech</h2>
+        <a href="/reviews/tech.html" class="see-all">SEE ALL →</a>
+      </div>
+      <div class="tech-cards">
+        <!--Tech Card 1-->
+        <div class="card">
+          <div class="card-thumb">
+            <img
+              src="your-image.jpg"
+              alt="Product Name"
+              style="width: 100%; height: 100%; object-fit: cover"
+            />
+            <span class="thumb-label label-tech">Tech</span>
+          </div>
+          <div class="card-body">
+            <div class="stars">
+              <div class="star-full"></div>
+              <div class="star-full"></div>
+              <div class="star-full"></div>
+              <div class="star-half"></div>
+              <div class="star-empty"></div>
+            </div>
+            <div class="card-top">
+              <div class="card-title">Product Name</div>
+              <div>
+                <div class="card-score">7.5</div>
+                <div class="card-score-label">/ 10</div>
+              </div>
+            </div>
+            <div class="card-meta">Brand · Category · Year</div>
+            <div class="card-text">
+              Your short one or two sentence take on the product goes here.
+            </div>
+            <div class="card-footer">
+              <span class="card-date">Month DD, YYYY</span>
+              <a href="your-review-page.html" class="card-read">Read →</a>
+            </div>
+          </div>
+        </div>
+        <!--End Tech Card 1-->
+        <!--Tech Card 2-->
+        <div class="card">
+          <div class="card-thumb">
+            <img
+              src="your-image.jpg"
+              alt="Product Name"
+              style="width: 100%; height: 100%; object-fit: cover"
+            />
+            <span class="thumb-label label-tech">Tech</span>
+          </div>
+          <div class="card-body">
+            <div class="stars">
+              <div class="star-full"></div>
+              <div class="star-full"></div>
+              <div class="star-full"></div>
+              <div class="star-half"></div>
+              <div class="star-empty"></div>
+            </div>
+            <div class="card-top">
+              <div class="card-title">Product Name</div>
+              <div>
+                <div class="card-score">7.5</div>
+                <div class="card-score-label">/ 10</div>
+              </div>
+            </div>
+            <div class="card-meta">Brand · Category · Year</div>
+            <div class="card-text">
+              Your short one or two sentence take on the product goes here.
+            </div>
+            <div class="card-footer">
+              <span class="card-date">Month DD, YYYY</span>
+              <a href="your-review-page.html" class="card-read">Read →</a>
+            </div>
+          </div>
+        </div>
+        <!--End Tech Card 2-->
+        <!--Tech Card 3-->
+        <div class="card">
+          <div class="card-thumb">
+            <img
+              src="your-image.jpg"
+              alt="Product Name"
+              style="width: 100%; height: 100%; object-fit: cover"
+            />
+            <span class="thumb-label label-tech">Tech</span>
+          </div>
+          <div class="card-body">
+            <div class="stars">
+              <div class="star-full"></div>
+              <div class="star-full"></div>
+              <div class="star-full"></div>
+              <div class="star-half"></div>
+              <div class="star-empty"></div>
+            </div>
+            <div class="card-top">
+              <div class="card-title">Product Name</div>
+              <div>
+                <div class="card-score">7.5</div>
+                <div class="card-score-label">/ 10</div>
+              </div>
+            </div>
+            <div class="card-meta">Brand · Category · Year</div>
+            <div class="card-text">
+              Your short one or two sentence take on the product goes here.
+            </div>
+            <div class="card-footer">
+              <span class="card-date">Month DD, YYYY</span>
+              <a href="your-review-page.html" class="card-read">Read →</a>
+            </div>
+          </div>
+        </div>
+        <!--End Tech Card 3-->
+      </div>
+      <!--End Tech Reviews-->
+    </main>
     <!--Footer-->
     <footer>
       <div class="footer-left">
