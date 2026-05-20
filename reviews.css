@@ -1,82 +1,89 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 .intro {
-    display: flex;
-    flex-direction: column;
-    padding: 64px 48px;
-    border-bottom: 1px solid #1e1e1e;
+  display: flex;
+  flex-direction: column;
+  padding: 64px 48px;
+  border-bottom: 1px solid #1e1e1e;
 }
 .intro-sub-title {
-    font-family: inter;
-    color: #50505079;
-    font-weight: 100;
-    letter-spacing: 1px;
+  font-family: inter;
+  color: #50505079;
+  font-weight: 100;
+  letter-spacing: 1px;
 }
 .intro-title {
-    color: floralwhite;
-    font-size: 64px;
-    font-family: Cormorant Garamond, serif;
-    font-weight: 800;
-    letter-spacing: 2px;
-
+  color: floralwhite;
+  font-size: 64px;
+  font-family:
+    Cormorant Garamond,
+    serif;
+  font-weight: 800;
+  letter-spacing: 2px;
 }
 .intro-description {
-    color: rgb(96, 96, 96);
-    font-family: cormorant garamond, serif;
-    margin-right: 55%;
-    padding-top: 10px;
-    font-weight: 400;
-
+  color: rgb(96, 96, 96);
+  font-family:
+    cormorant garamond,
+    serif;
+  margin-right: 55%;
+  padding-top: 10px;
+  font-weight: 400;
 }
 .filter-buttons {
-    display: flex;
-    flex-direction: row;
-    gap: 12px;
-    padding: 16px 48px;
-    border-bottom: 1px solid #1e1e1e;
-
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  padding: 16px 48px;
+  border-bottom: 1px solid #1e1e1e;
 }
 .filter-button {
-    background-color: transparent;
-    color: floralwhite;
-    border-color: floralwhite;
-    font-size: 12px;
-    font-weight: 100;
-    letter-spacing: 2px;
-    font-family: cormorant garamond, serif;
-    
+  background-color: transparent;
+  color: floralwhite;
+  border-color: floralwhite;
+  font-size: 12px;
+  font-weight: 100;
+  letter-spacing: 2px;
+  font-family:
+    cormorant garamond,
+    serif;
 }
 .section-title {
-    
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 16px 48px;
-    font-family: cormorant garamond, serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 16px 48px;
+  font-family:
+    cormorant garamond,
+    serif;
 }
 .review-title {
-    color: floralwhite;
-    font-family: cormorant garamond, serif;
-    font-size: 24px;
-    font-weight: 600;
-    letter-spacing: 1px;
+  color: floralwhite;
+  font-family:
+    cormorant garamond,
+    serif;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 1px;
 }
 .see-all {
-    color: rgb(114, 114, 114);
-    font-family: inter;
-    font-size: 10px;
-    font-weight: 100;
-    letter-spacing: 2px;
-    text-decoration: none;
+  color: rgb(114, 114, 114);
+  font-family: inter;
+  font-size: 10px;
+  font-weight: 100;
+  letter-spacing: 2px;
+  text-decoration: none;
 }
 
 .cards {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 14px;
+  padding: 16px 48px;
+  border-bottom: 1px solid #1e1e1e;
 }
 
 .card {
@@ -85,11 +92,13 @@
   border-radius: 4px;
   overflow: hidden;
   cursor: pointer;
+  display: flex;
+  flex-direction: column;
 }
 
 .card-thumb {
   width: 100%;
-  height: 110px;
+  height: 100px;
   background: #161616;
   border-bottom: 1px solid #1e1e1e;
   position: relative;
@@ -130,6 +139,9 @@
 
 .card-body {
   padding: 14px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
 }
 
 .stars {
@@ -179,7 +191,7 @@
 }
 
 .card-score {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: "Cormorant Garamond", serif;
   font-size: 18px;
   font-weight: 300;
   color: #fff;
@@ -205,7 +217,7 @@
 }
 
 .card-text {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 10px;
   font-weight: 300;
   color: #777;
@@ -219,6 +231,7 @@
   align-items: center;
   padding-top: 10px;
   border-top: 1px solid #161616;
+  margin-top: auto;
 }
 
 .card-date {
@@ -237,26 +250,32 @@
   text-transform: uppercase;
 }
 .game-cards {
-    display: flex;
-    flex-direction: row;
-    padding: 16px 48px;
-    gap: 14px;
-    justify-content: space-between;
-    border-bottom: 1px solid #1e1e1e;
+  display: flex;
+  flex-direction: row;
+  padding: 16px 48px;
+  gap: 14px;
+  justify-content: space-between;
+  border-bottom: 1px solid #1e1e1e;
 }
 .book-cards {
-    display: flex;
-    flex-direction: row;
-    padding: 16px 48px;
-    gap: 14px;
-    justify-content: space-between;
-    border-bottom: 1px solid #1e1e1e;
+  display: flex;
+  flex-direction: row;
+  padding: 16px 48px;
+  gap: 14px;
+  justify-content: space-between;
+  border-bottom: 1px solid #1e1e1e;
 }
 .tech-cards {
-    display: flex;
-    flex-direction: row;
-    padding: 16px 48px;
-    gap: 14px;
-    justify-content: space-between;
-    border-bottom: 1px solid #1e1e1e;
+  display: flex;
+  flex-direction: row;
+  padding: 16px 48px;
+  gap: 14px;
+  justify-content: space-between;
+  border-bottom: 1px solid #1e1e1e;
+}
+.card-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }
