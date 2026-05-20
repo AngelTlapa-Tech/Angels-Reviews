@@ -94,6 +94,7 @@
   cursor: pointer;
   display: flex;
   flex-direction: column;
+  transition: transform 0.2s ease;
 }
 
 .card-thumb {
@@ -199,10 +200,10 @@
 }
 
 .card-score-label {
-  font-size: 7px;
-  font-weight: 300;
+  font-size: 8px;
+  font-weight: 500;
   letter-spacing: 0.1em;
-  color: #444;
+  color: #989898;
   text-transform: uppercase;
   text-align: right;
 }
@@ -278,4 +279,8 @@
   height: 100%;
   object-fit: cover;
   display: block;
+}
+.card:hover {
+  transform: scale(1.03);
+  border-color: #333;
 }

@@ -1,6 +1,6 @@
+// popup
 const overlay = document.getElementById("devOverlay");
 if (overlay) {
-  // Popup
   if (!sessionStorage.getItem("popupSeen")) {
     document.getElementById("devOverlay").style.display = "flex";
     sessionStorage.setItem("popupSeen", "true");
@@ -12,3 +12,4 @@ if (overlay) {
     document.getElementById("devOverlay").style.display = "none";
   }
 }
+//popup end
