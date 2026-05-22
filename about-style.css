@@ -34,11 +34,12 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 40px;
+  gap: 30px;
   padding: 64px 48px;
+  border-bottom: 1px solid #1e1e1e;
 }
 .info-title {
-  color: rgb(103, 103, 103);
+  color: rgb(86, 86, 86);
   font-family: Inter, sans-serif;
   font-weight: 300;
   letter-spacing: 1px;
@@ -49,6 +50,19 @@
   color: rgba(255, 250, 240, 0.852);
   font-family: "Inter", sans-serif;
 }
-.info-section {
-  border-right: 1px solid #1e1e1e;
+.border {
+  height: 100px;
+  width: 1px;
+  background: #1e1e1e;
+  margin: 0 15px;
+}
+.now-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 40px;
+  padding: 64px 48px;
+}
+.now-card {
+  color: floralwhite;
 }
