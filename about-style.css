@@ -22,13 +22,11 @@
   margin-right: 10%;
 }
 .ref-buttons {
-  padding-bottom: 50px;
-  border-bottom: 1px solid #1e1e1e;
-  padding: 64px 48px;
-}
-.ref-button {
-  text-decoration: none;
-  margin-top: -40px;
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  padding: 16px 48px;
+  padding-bottom: 80px;
 }
 .my-info {
   display: flex;
@@ -66,4 +64,48 @@
 }
 .now-card {
   color: floralwhite;
+}
+button {
+  align-items: center;
+  background-color: transparent;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  font-family:
+    ui-sans-serif,
+    system-ui,
+    -apple-system,
+    system-ui,
+    "Segoe UI",
+    Roboto,
+    "Helvetica Neue",
+    Arial,
+    "Noto Sans",
+    sans-serif,
+    "Apple Color Emoji",
+    "Segoe UI Emoji",
+    "Segoe UI Symbol",
+    "Noto Color Emoji";
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.5;
+  text-decoration: none;
+  text-transform: uppercase;
+  outline: 0;
+  border: 0;
+  padding: 1rem;
+}
+button:before {
+  background-color: #fff;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  margin-right: 10px;
+  transition: all 0.42s cubic-bezier(0.25, 0.8, 0.25, 1);
+  width: 0;
+}
+
+button:hover:before {
+  background-color: #fff;
+  width: 3rem;
 }
