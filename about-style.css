@@ -28,6 +28,7 @@
 }
 .ref-button {
   text-decoration: none;
+  margin-top: -40px;
 }
 .my-info {
   display: flex;

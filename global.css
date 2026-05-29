@@ -332,3 +332,49 @@ main {
   color: #fff;
   border-color: #555;
 }
+.wip-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 20px;
+  color: #ffffff; /* White text for dark backgrounds */
+  font-family: Arial, sans-serif;
+}
+
+/* The spinning circle animation */
+.wip-spinner {
+  width: 24px;
+  height: 24px;
+  border: 3px solid rgba(255, 255, 255, 0.2); /* Faint white base circle */
+  border-top: 3px solid #38bdf8; /* Bright neon blue spinner highlight */
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+/* Keyframes for the spin */
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Pulsating text */
+.wip-text {
+  animation: pulse 1.5s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 0.4;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.4;
+  }
+}
